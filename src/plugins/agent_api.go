@@ -16,6 +16,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"net/http/pprof"
 	"os"
 	"regexp"
 	"time"
@@ -206,6 +207,7 @@ func (a *AgentAPI) createHttpServer() {
 
 	mux := http.NewServeMux()
 
+	mux.HandleFunc("/debug/pprof/", pprof.Profile)
 	mux.Handle("/metrics/", a.getPrometheusHandler())
 	mux.Handle("/nginx/", a.nginxHandler)
 

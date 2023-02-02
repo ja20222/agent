@@ -38,13 +38,13 @@ require (
 )
 
 require (
-	github.com/bufbuild/buf v1.12.0
+	github.com/bufbuild/buf v1.13.1
 	github.com/go-resty/resty/v2 v2.7.0
 	github.com/go-swagger/go-swagger v0.30.4
 	github.com/nginx/agent/sdk/v2 v2.0.0-00010101000000-000000000000
 	github.com/prometheus/client_golang v1.13.0
 	github.com/pseudomuto/protoc-gen-doc v1.5.1
-	github.com/rs/cors v1.8.2
+	github.com/rs/cors v1.8.3
 	gopkg.in/yaml.v2 v2.4.0
 )
 
@@ -62,11 +62,12 @@ require (
 	github.com/bufbuild/connect-go v1.4.1 // indirect
 	github.com/bufbuild/protocompile v0.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/chzyer/readline v1.5.0 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/docker/cli v20.10.21+incompatible // indirect
+	github.com/docker/cli v20.10.23+incompatible // indirect
 	github.com/docker/distribution v2.8.1+incompatible // indirect
-	github.com/docker/docker v20.10.21+incompatible // indirect
+	github.com/docker/docker v20.10.23+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.7.0 // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
@@ -90,17 +91,18 @@ require (
 	github.com/gofrs/uuid v4.3.1+incompatible // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/google/go-containerregistry v0.12.1 // indirect
-	github.com/google/pprof v0.0.0-20221203041831-ce31453925ec // indirect
+	github.com/google/pprof v0.0.0-20230131232505-5a9e8f65f08f // indirect
 	github.com/gorilla/handlers v1.5.1 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/huandu/xstrings v1.3.3 // indirect
+	github.com/ianlancetaylor/demangle v0.0.0-20220319035150-800ac71e25c2 // indirect
 	github.com/imdario/mergo v0.3.13 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jdxcode/netrc v0.0.0-20221124155335-4616370d1a84 // indirect
 	github.com/jessevdk/go-flags v1.5.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
-	github.com/klauspost/compress v1.15.13 // indirect
+	github.com/klauspost/compress v1.15.15 // indirect
 	github.com/klauspost/pgzip v1.2.5 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
