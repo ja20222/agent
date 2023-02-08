@@ -1,5 +1,4 @@
-ARG BASE_IMAGE
-FROM ${BASE_IMAGE} as install
+FROM ubuntu:22.04 as install
 LABEL maintainer="NGINX Agent Maintainers <agent@nginx.com>"
 
 ARG PACKAGE
@@ -28,8 +27,10 @@ RUN set -x \
                         vim \
                         golang \
                         nginx \
-    && apt-get update \
-    && apt install -y -f /agent/build/$PACKAGE.deb
+    && apt-get update
+
+USER nginx
+RUN apt install -y -f /agent/build/$PACKAGE.deb
 
 # run the nginx and agent
 FROM install as runtime
